@@ -10,10 +10,13 @@
   }
 
   body {
-    font-family: "";
+    font-family: "Inter";
     line-height: 1.5;
-    /* background-color: #F0F4F8;
-      @apply dark:bg-gray-900;  */
+    background-color: #222831;
+    /*@apply dark:bg-gray-900;*/
+  }
+  h1{
+    font-family: "Jersey 10", serif;
   }
 
   a {
