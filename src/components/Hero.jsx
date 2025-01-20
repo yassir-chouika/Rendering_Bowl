@@ -16,9 +16,8 @@ const Hero = () => {
       >
         Discover
       </button>
-      {/* The FontAwesomeIcon positioned at the bottom */}
       <div className="absolute bottom-28">
-        <FontAwesomeIcon style={{color:'white'}} icon={faAnglesDown} />
+        <FontAwesomeIcon style={{ color: "white" }} icon={faAnglesDown} />
       </div>
     </div>
   );
