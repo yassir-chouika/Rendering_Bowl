@@ -8,7 +8,7 @@ import {
 
 const NavBar = () => {
   return (
-    <nav className="bg-SlightlyBlack border-gray-200 dark:bg-gray-900 m-4 rounded-2xl">
+    <nav className="shadow-lg sticky top-2 left-0 right-0 z-10 bg-SlightlyBlack border-gray-200 dark:bg-gray-900 m-2 laptop:m-4 rounded-lg">
       <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo Section */}
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">

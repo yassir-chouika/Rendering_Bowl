@@ -3,12 +3,12 @@ import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex flex-col items-center">
-      <h1 className="text-white text-8xl text-center mt-10">
-        Welcome to RenderBowl —<br /> Code Rendering Reimagined
+    <div className="relative px-4 min-h-screen flex flex-col items-center">
+      <h1 className="text-white text-5xl  tablet:text-6xl laptop:text-8xl text-center mt-16">
+        Welcome to RenderBowl —<br className="hidden laptop:block" /> Code Rendering Reimagined
       </h1>
-      <p className="text-PaletteGray text-center text-4xl">
-        Your One-Stop Solution for Modern Web <br /> Development Compilation
+      <p className="text-PaletteGray text-center text-lg tablet:text-2xl laptop:text-4xl">
+        Your One-Stop Solution for Modern Web <br className="hidden tablet:block" /> Development Compilation
       </p>
       <button
         type="button"
