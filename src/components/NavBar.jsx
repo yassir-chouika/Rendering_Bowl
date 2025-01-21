@@ -4,9 +4,12 @@ import {
   faMagnifyingGlass,
   faSun,
   faLaptopCode,
+  faMoon,
 } from "@fortawesome/free-solid-svg-icons";
+import { useTheme } from "../context/ThemeContext";
 
 const NavBar = () => {
+  const { isDarkMode, toggleDarkMode } = useTheme();
   return (
     <nav className="shadow-lg sticky top-2 left-0 right-0 z-10 bg-SlightlyBlack border-gray-200 dark:bg-gray-900 m-2 laptop:m-4 rounded-lg">
       <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4">
@@ -17,7 +20,7 @@ const NavBar = () => {
             size="2xl"
             style={{ color: "#00ADB5" }}
           />
-          <span className="self-center text-white text-2xl font-semibold whitespace-nowrap dark:text-black">
+          <span className="self-center text-white text-2xl font-semibold whitespace-nowrap">
             RenderBowl
           </span>
         </a>
@@ -39,8 +42,17 @@ const NavBar = () => {
         </div>
 
         {/* Sun Icon Section */}
-        <button className="bg-PaletteTeal px-4 py-2 rounded-lg hidden md:block md:order-2 hover:bg-[#009198] focus:ring-4 focus:ring-[#00ADB5]/50">
-          <FontAwesomeIcon icon={faSun} style={{ color: "#ffffff" }} />
+        <button
+          onClick={toggleDarkMode}
+          type="button"
+          className="bg-PaletteTeal px-4 py-2 rounded-lg hidden md:block md:order-2 hover:bg-[#009198] focus:ring-4 focus:ring-[#00ADB5]/50"
+        >
+          {isDarkMode ? (
+            <FontAwesomeIcon icon={faMoon} style={{ color: "#ffffff" }} />
+            
+          ) : (
+            <FontAwesomeIcon icon={faSun} style={{ color: "#ffffff" }} />
+          )}
         </button>
 
         {/* Mobile Menu: Sun Icon + Search Toggle */}

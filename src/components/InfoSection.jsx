@@ -40,9 +40,16 @@ const cards = [
 ];
 
 const InfoSection = () => {
+  const handleClick = () => {
+    window.open(
+      "https://github.com/yassir-chouika/Rendering_Bowl",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
   return (
     <section>
-      <h2 className="text-white text-2xl text-center laptop:text-left tablet:text-5xl font-semibold mt-10  tablet:ml-10">
+      <h2 className="text-white dark:text-gray-900 text-2xl text-center laptop:text-left tablet:text-5xl font-semibold mt-10  tablet:ml-10">
         What is RenderBowl exactly ?
       </h2>
       <p className="text-PaletteGray ml-5 mr-5 text-md text-justify tablet:text-lg laptop:ml-11 laptop:mt-2 laptop:mr-28 mb-28">
@@ -59,7 +66,7 @@ const InfoSection = () => {
         <span className="text-PaletteTeal text-4xl tablet:text-6xl">
           DO NOT
         </span>{" "}
-        want to miss
+        want to ignore
       </h3>
       <div className="flex justify-center flex-wrap laptop:flex mb-28 tablet:mb-28 md:mb-28 laptop:mb-16">
         {cards.map((card) => (
@@ -72,11 +79,11 @@ const InfoSection = () => {
       </div>
 
       <div className="group relative flex justify-center items-center">
-        <button>
+        <button onClick={handleClick}>
           <svg
-            stroke-linejoin="round"
-            stroke-linecap="round"
-            stroke-width="2"
+            strokeLinejoin="round"
+            strokeLinecap="round"
+            strokeWidth="2"
             stroke="currentColor"
             fill="none"
             viewBox="0 0 24 24"
