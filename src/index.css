@@ -15,7 +15,7 @@
     background-color: #222831;
     @apply dark:bg-[#F0F4F8];
   }
-  h1{
+  h1 {
     font-family: "Jersey 10", serif;
   }
 
@@ -27,4 +27,5 @@
   button {
     cursor: pointer;
   }
+  
 }

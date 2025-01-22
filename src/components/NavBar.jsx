@@ -6,7 +6,7 @@ import {
   faLaptopCode,
   faMoon,
 } from "@fortawesome/free-solid-svg-icons";
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../context/ThemeContext.jsx";
 
 const NavBar = () => {
   const { isDarkMode, toggleDarkMode } = useTheme();

@@ -64,7 +64,7 @@ const RenderingSection = () => {
           </button>
         </div>
         {/* Code editor */}
-        <div className="border-solid border-4 border-PaletteGray p-1 rounded-lg">
+        <div className="border-solid border-4 bg-PaletteGray border-PaletteGray dark:bg-gray-900 dark:border-gray-900 p-1 rounded-lg">
           <CodeMirror
             value={
               activeTab === "html"

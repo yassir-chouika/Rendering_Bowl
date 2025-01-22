@@ -5,17 +5,21 @@ import Hero from "./components/Hero.jsx";
 import RenderingSection from "./components/RenderingSection.jsx";
 import InfoSection from "./components/InfoSection.jsx";
 import Footer from "./components/Footer.jsx";
+import Squares from "./animations/Squares.jsx";
 
 function App() {
   return (
     <ThemeProvider>
-      <div className="">
+      <>
+        <div className="absolute inset-0 -z-10">
+          <Squares speed={0.5} squareSize={40} direction="diagonal" />
+        </div>
         <NavBar />
         <Hero />
         <RenderingSection />
         <InfoSection />
         <Footer />
-      </div>
+      </>
     </ThemeProvider>
   );
 }
