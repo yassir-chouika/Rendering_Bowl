@@ -56,7 +56,7 @@ const InfoSection = () => {
         An online code editor is a web-based tool that allows you to write, run,
         and test your code directly in your browser. It provides a convenient
         environment for coding without needing to install additional software.
-        Use our HTML/CSS Code Editor above to write your code and instantly see
+        Use our HTML/CSS/JAVASCRIPT Code Editor above to write your code and instantly see
         the results. Whether you're experimenting with new ideas or learning the
         basics, our editor streamlines the process of coding and compiling.
       </p>

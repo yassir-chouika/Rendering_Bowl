@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -15,12 +16,20 @@ const Hero = () => {
         Your One-Stop Solution for Modern Web{" "}
         <br className="hidden tablet:block" /> Development Compilation
       </p>
-      <button
-        type="button"
-        className="text-white bg-PaletteTeal hover:bg-[#009198] focus:ring-4 focus:ring-[#00ADB5]/50 font-bold rounded-lg text-md px-5 py-2.5 m-5 focus:outline-none motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md motion-duration-1000 motion-delay-400 motion-ease-bounce"
+      <Link
+        to="target-section" // ID of the target div
+        smooth={true} // Enables smooth scrolling
+        duration={700} // Scroll duration in milliseconds
+        offset={-90}
       >
-        Discover
-      </button>
+        <button
+          type="button"
+          className="text-white bg-PaletteTeal hover:bg-[#009198] focus:ring-4 focus:ring-[#00ADB5]/50 font-bold rounded-lg text-md px-5 py-2.5 m-5 focus:outline-none motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md motion-duration-1000 motion-delay-400 motion-ease-bounce"
+        >
+          Discover
+        </button>
+      </Link>
+
       <div className="absolute bottom-28 motion-translate-y-loop-25">
         <FontAwesomeIcon
           className="dark:hidden"

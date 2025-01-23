@@ -38,7 +38,7 @@ const RenderingSection = () => {
   return (
     <main className="w-full flex flex-col gap-2 laptop:flex-row laptop:gap-1 p-2">
       {/* Code typing area */}
-      <div className="laptop:w-1/2 ">
+      <div id="target-section" className="laptop:w-1/2 ">
         <div className="flex flex-row justify-between pt-2 tablet:px-1">
           <div className="flex flex-row py-2 tablet:p-2">
             {["Html", "Css", "Javascript"].map((tab) => (
