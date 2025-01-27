@@ -46,7 +46,7 @@ const RenderingSection = () => {
                 key={tab}
                 type="button"
                 onClick={() => setActiveTab(tab.toLowerCase())}
-                className={`text-white bg-SlightlyBlack hover:bg-[#2D3238] focus:ring-4 focus:ring-[#00ADB5]/50  font-medium rounded-lg text-sm px-5 py-2.5 me-2 ${
+                className={`text-white bg-SlightlyBlack hover:bg-[#2D3238] focus:ring-4 focus:ring-[#00ADB5]/50  font-medium rounded-lg text-sm px-5 py-2.5 me-2 hover:scale-105 duration-200 ${
                   activeTab === tab.toLowerCase() ? "bg-[#00ADB5]" : ""
                 }`}
               >
@@ -57,7 +57,7 @@ const RenderingSection = () => {
           <button
             type="button"
             onClick={handleRun}
-            className="text-white bg-PaletteTeal hover:bg-[#009198] focus:ring-4 focus:ring-[#00ADB5]/50 font-medium rounded-lg text-sm px-5 py-2.5 me-2 m-2 focus:outline-none"
+            className="text-white bg-PaletteTeal hover:bg-[#009198] focus:ring-4 focus:ring-[#00ADB5]/50 font-medium rounded-lg text-sm px-5 py-2.5 me-2 m-2 focus:outline-none hover:scale-105 duration-200"
           >
             <FontAwesomeIcon className=" mr-3" icon={faPlay} />
             Run

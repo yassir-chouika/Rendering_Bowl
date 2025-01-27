@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <div className="relative px-4 min-h-screen flex flex-col items-center">
-      <h1 className="text-white text-5xl tablet:text-6xl laptop:text-8xl text-center mt-16 dark:text-gray-900 motion-opacity-in-0 motion-translate-x-in-100 motion-blur-in-md motion-duration-1000">
+      <h1 className="[text-shadow:_0_2px_8px_#778DA9] text-white text-5xl tablet:text-6xl laptop:text-8xl text-center mt-16 dark:text-gray-900 motion-opacity-in-0 motion-translate-x-in-100 motion-blur-in-md motion-duration-1000">
         Welcome to RenderBowl —<br className="hidden laptop:block" /> Code
         Rendering Reimagined
       </h1>
@@ -24,7 +24,7 @@ const Hero = () => {
       >
         <button
           type="button"
-          className="text-white bg-PaletteTeal hover:bg-[#009198] focus:ring-4 focus:ring-[#00ADB5]/50 font-bold rounded-lg text-md px-5 py-2.5 m-5 focus:outline-none motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md motion-duration-1000 motion-delay-400 motion-ease-bounce"
+          className="text-white bg-PaletteTeal hover:bg-[#009198] focus:ring-4 focus:ring-[#00ADB5]/50 font-bold rounded-lg text-md px-5 py-2.5 m-5 focus:outline-none motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md motion-duration-1000 motion-delay-400 motion-ease-bounce transition-transform hover:scale-105 duration-200 hover:shadow-[7px_5px_56px_-14px_#009198]"
         >
           Discover
         </button>
