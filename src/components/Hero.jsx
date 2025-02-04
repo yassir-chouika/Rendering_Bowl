@@ -10,7 +10,7 @@ const Hero = () => {
         Rendering Reimagined
       </h1>
       <p
-        className="text-PaletteGray text-center text-lg tablet:text-2xl laptop:text-4xl motion-opacity-in-0 motion-translate-x-in-[-100%] motion-blur-in-md motion-duration-1000 motion-delay-100
+        className="text-PaletteGray dark:text-gray-700 text-center text-lg tablet:text-2xl laptop:text-4xl motion-opacity-in-0 motion-translate-x-in-[-100%] motion-blur-in-md motion-duration-1000 motion-delay-100
 "
       >
         Your One-Stop Solution for Modern Web{" "}

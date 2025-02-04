@@ -13,7 +13,7 @@
     font-family: "Inter";
     line-height: 1.5;
     background-color: #222831;
-    @apply dark:bg-[#F0F4F8];
+    @apply dark:bg-[#e5ecf3];
   }
   h1 {
     font-family: "Jersey 10", serif;

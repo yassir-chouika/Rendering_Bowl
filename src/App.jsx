@@ -11,7 +11,7 @@ function App() {
   return (
     <ThemeProvider>
       <>
-        <div className="absolute inset-0 -z-10">
+        <div className="blur-[1px] absolute inset-0 -z-10">
           <Squares speed={0.5} squareSize={40} direction="diagonal" />
         </div>
         <NavBar />

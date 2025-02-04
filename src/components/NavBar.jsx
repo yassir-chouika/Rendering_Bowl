@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo Section */}
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/RenderBowlLogo.svg" className="w-11" alt="" />
+          <img src="/RenderBowlLogo.svg" className="w-10" alt="" />
           <span className="self-center text-white text-2xl font-semibold whitespace-nowrap">
             RenderBowl
           </span>
