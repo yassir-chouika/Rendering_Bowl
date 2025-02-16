@@ -50,7 +50,7 @@ const InfoSection = () => {
   return (
     <section>
       <h2 className="text-white dark:text-gray-900 text-2xl text-center laptop:text-left tablet:text-5xl font-semibold mt-10  tablet:ml-10">
-        What is RenderBowl exactly ?
+        What is <span className="text-PaletteTeal">RenderBowl</span> exactly ?
       </h2>
       <p className="text-PaletteGray ml-5 mr-5 text-md text-justify tablet:text-lg laptop:ml-11 laptop:mt-2 laptop:mr-28 mb-28">
         An online code editor is a web-based tool that allows you to write, run,
